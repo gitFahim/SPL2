@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">GoogleMaps</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name">Basic</string>
+    <string name="text">This is my first app.</string>
+    <string name="paragraph">Traffic jam is a long line of vehicles that cannot move or that can only move very slowly because there is so much traffic on the road. Traffic jam is a common affair in the big cities and towns. It is one of the major problems of modern time. The causes of traffic jam are many. In proportion to our population roads have not increased. The roads are all the same.
+
+There are many unlicensed vehicles which should be brought under control. The drivers are not willing to o the traffic rules. They want to drive at their sweet will. Overtaking tendency also causes traffic jam. The number of traffic police is insufficient. At office time traffic jam is intolerable. Sometimes traffic jam is so heavy that it blocks half a kilometre. It kills our valuable time and our work is hampered. It causes great sufferings to the ambulance carrying dying patients and the fire brigade vehicles.
+
+However, this problem can be solved by adopting some measures. Well planned spacious roads should be constructed. One way movement of vehicles should be introduced. Traffic rules should be imposed strictly so that the drivers are bound to obey them. Sufficient traffic police should be posted on important points. Unlicensed vehicles should be removed. After doing all these things we can hope to have a good traffic system for our easy and comfortable movement.
+        Traffic jam is a situation in which a long line of vehicles on a road have stopped moving or are moving very slowly. It is a great problem and nuisance for the modern society. Like other developing countries it is also one of the most irritating problems in Bangladesh. Especially, it has taken a very serious shape in Dhaka city. It causes intolerable sufferings for urban people. The causes of traffic jam are many.
+    </string>
 </resources>
