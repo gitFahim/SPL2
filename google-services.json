@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "352849891289",
+    "project_id": "splmap-ddbeb",
+    "storage_bucket": "splmap-ddbeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352849891289:android:773a4a3f7a90c6264193c8",
+        "android_client_info": {
+          "package_name": "com.example.googlemaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352849891289-odlal75i4iqlqfv3oah4ukaptk3798br.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlemaps",
+            "certificate_hash": "f47691cecfca2e49a43a0a696f0f8e8820724af6"
+          }
+        },
+        {
+          "client_id": "352849891289-2febb3ipvglm252m785uqnsrfh0eqbj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1-yLqxGwJvwrWwuaFMohahwYcI6REI7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352849891289-2febb3ipvglm252m785uqnsrfh0eqbj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
