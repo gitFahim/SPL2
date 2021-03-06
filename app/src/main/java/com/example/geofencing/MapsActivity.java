@@ -37,7 +37,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GeofencingClient geofencingClient;
     private GeofenceHelper geofenceHelper;
 
-    private float GEOFENCE_RADIUS = 200;
+    private float GEOFENCE_RADIUS = 10;
     private String GEOFENCE_ID = "SOME_GEOFENCE_ID";
 
     private int FINE_LOCATION_ACCESS_REQUEST_CODE = 10001;

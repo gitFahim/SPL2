@@ -7,6 +7,8 @@ import android.location.Location;
 import android.util.Log;
 import android.widget.Toast;
 
+import androidx.core.app.NotificationCompat;
+
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.location.GeofencingEvent;
 
@@ -25,17 +27,17 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
        //Toast.makeText(context, "Geofence triggered...", Toast.LENGTH_SHORT).show();
 
         NotificationHelper notificationHelper = new NotificationHelper(context);
-        Log.d("tag", "What's wrong");
+        //Log.d("tag", "What's wrong");
         GeofencingEvent geofencingEvent = GeofencingEvent.fromIntent(intent);
 
         if (geofencingEvent.hasError()) {
-            Log.d(TAG, "onReceive: Error receiving geofence event...");
+            //Log.d(TAG, "onReceive: Error receiving geofence event...");
             return;
         }
 
         List<Geofence> geofenceList = geofencingEvent.getTriggeringGeofences();
         for (Geofence geofence: geofenceList) {
-            Log.d(TAG, "onReceive: " + geofence.getRequestId());
+            //Log.d(TAG, "onReceive: " + geofence.getRequestId());
         }
 //        Location location = geofencingEvent.getTriggeringLocation();
         int transitionType = geofencingEvent.getGeofenceTransition();
@@ -45,6 +47,9 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
                 Toast.makeText(context, "GEOFENCE_TRANSITION_ENTER", Toast.LENGTH_LONG).show();
                 Log.d("tag", "What's wrong");
                 //notificationHelper.sendHighPriorityNotification("GEOFENCE_TRANSITION_ENTER", "", MapsActivity.class);
+
+
+
                 break;
             case Geofence.GEOFENCE_TRANSITION_DWELL:
                 Toast.makeText(context, "GEOFENCE_TRANSITION_DWELL", Toast.LENGTH_LONG).show();
@@ -61,5 +66,7 @@ public class GeofenceBroadcastReceiver extends BroadcastReceiver {
         }
 
     }
+
+
 
 }
